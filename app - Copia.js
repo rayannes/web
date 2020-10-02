@@ -13,6 +13,5 @@ app.get('/cadastro',(req, res) =>{//questao 2
 	res.end('<form><textarea name="texto" rows="10" cols="30"></textarea> <button>botão</button></form>')
 })
 
-app.listen(3000, () =>{//testando
-	console.log('funcionando')
+app.listen(3000, () =>{ //porta
 })
